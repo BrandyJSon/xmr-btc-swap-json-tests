@@ -362,7 +362,7 @@ impl Config {
             env_config,
             seed: Some(seed),
             debug: false,
-            json: false,
+            json: true,
             is_testnet: false,
             data_dir,
         }
