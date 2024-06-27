@@ -1,0 +1,3 @@
+[submodule "electrumx-testnet4"]
+	path = electrumx-testnet4
+	url = https://github.com/BrandyJSon/electrumx-testnet4.git
