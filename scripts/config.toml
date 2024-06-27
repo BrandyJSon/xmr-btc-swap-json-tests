@@ -1,0 +1,26 @@
+[data]
+dir = "~/.local/share/xmr-btc-swap/asb/testnet"
+
+[network]
+listen = ["/ip4/0.0.0.0/tcp/9939", "/ip4/0.0.0.0/tcp/9940/ws"]
+rendezvous_point = []
+external_addresses = []
+
+[bitcoin]
+electrum_rpc_url = "tcp://127.0.0.1:50001"
+target_block = 7
+network = "Testnet"
+
+[monero]
+wallet_rpc_url = "http://127.0.0.1:38083/json_rpc"
+network = "Stagenet"
+
+[tor]
+control_port = 9051
+socks5_port = 9050
+
+[maker]
+min_buy_btc = 0.0001
+max_buy_btc = 0.02
+ask_spread = 0.00
+price_ticker_ws_url = "wss://ws.kraken.com/"
